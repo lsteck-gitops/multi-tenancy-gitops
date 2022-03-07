@@ -4,13 +4,13 @@ resources:
 #- argocd/ace/stage.yaml
 #- argocd/ace/prod.yaml
 
-#- argocd/mq/cicd.yaml
-#- argocd/mq/dev.yaml
+- argocd/mq/cicd.yaml
+- argocd/mq/dev.yaml
 #- argocd/mq/stage.yaml
 #- argocd/mq/prod.yaml
 
-- argocd/apic/cicd.yaml
-- argocd/apic/dev.yaml
+#- argocd/apic/cicd.yaml
+#- argocd/apic/dev.yaml
 #- argocd/apic/stage.yaml
 #- argocd/apic/prod.yaml
 #- argocd/apic/single-cluster-pipelines.yaml
