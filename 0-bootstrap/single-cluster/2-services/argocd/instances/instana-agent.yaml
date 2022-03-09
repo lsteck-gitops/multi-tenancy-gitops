@@ -50,7 +50,7 @@ spec:
             # listenAddress: *
 
             # agent.endpointHost is the hostname of the Instana server your agents will connect to.
-            endpointHost: ec2-3-22-248-37.us-east-2.compute.amazonaws.com
+            endpointHost: 52.116.51.72
             # agent.endpointPort is the port number (as a String) of the Instana server your agents will connect to.
             endpointPort: 1444
 
@@ -163,7 +163,7 @@ spec:
 
           cluster:
             # cluster.name represents the name that will be assigned to this cluster in Instana
-            name: cluster-name
+            name: 'Onboarding cluster'
 
           leaderElector:
             image:
@@ -212,7 +212,7 @@ spec:
 
           zone:
             # zone.name is the custom zone that detected technologies will be assigned to
-            name: zone-name
+            name: 'Onboarding zone'
 
           kubernetes:
             # Configures use of a Deployment for the Kubernetes sensor rather than as a potential member of the DaemonSet
