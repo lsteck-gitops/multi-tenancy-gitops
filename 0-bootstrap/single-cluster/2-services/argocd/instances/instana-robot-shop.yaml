@@ -38,7 +38,7 @@ spec:
             # the namespace in which you deploy "robot-shop" and specify the name in the "keysSecret" field.
             # The secret you create must contain a field called 'key' which contains the value you'd set in `.eum.key`.
             keysSecret: instana-eum-key
-            url: ""
+            url: "http://52.116.51.72:2999"
           psp:
             enabled: false
           nodeport: false
