@@ -69,7 +69,7 @@ spec:
               # agent.image.tag is the tag name of the agent container image; if agent.image.digest is specified, this property is ignored.
               tag: latest
               # agent.image.pullPolicy specifies when to pull the image container.
-              pullPolicy: Always
+              pullPolicy: IfNotPresent
               # agent.image.pullSecrets allows you to override the default pull secret that is created when agent.image.name starts with "containers.instana.io"
               # Setting agent.image.pullSecrets prevents the creation of the default "containers-instana-io" secret.
               # pullSecrets:
